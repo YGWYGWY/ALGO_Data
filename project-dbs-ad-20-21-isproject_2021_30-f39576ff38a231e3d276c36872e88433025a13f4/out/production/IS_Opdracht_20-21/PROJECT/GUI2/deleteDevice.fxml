@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="897.0" prefWidth="1537.0" style="-fx-background-color: #9fd1d1;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="PROJECT.GUI2.DeleteDeviceController">
+    <children>
+        <Button fx:id="deleteDevicebttn" layoutX="182.0" layoutY="119.0" mnemonicParsing="false" onAction="#deleteDevice" onContextMenuRequested="#testMethode" text="Delete" />
+        <Label layoutX="138.0" layoutY="27.0" prefHeight="30.0" prefWidth="172.0" text="DELETE DEVICE ">
+            <font>
+                <Font name="System Bold" size="20.0" />
+            </font></Label>
+        <Label layoutX="47.0" layoutY="80.0" text="Device Number" />
+        <TextField fx:id="txtDeviceNumber" layoutX="147.0" layoutY="76.0" prefHeight="25.0" prefWidth="200.0" />
+    </children>
+</AnchorPane>

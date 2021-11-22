@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="863.0" prefWidth="1622.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="PROJECT.GUI2.PersonListViewController">
+    <children>
+        <SplitPane dividerPositions="0.22469135802469137" prefHeight="869.0" prefWidth="1622.0">
+            <items>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="743.0" prefWidth="361.0" style="-fx-background-color: #f5c898;">
+                    <children>
+                        <Label layoutX="99.0" layoutY="49.0" prefHeight="28.0" prefWidth="160.0" text="List of workers">
+                            <font>
+                                <Font size="23.0" />
+                            </font>
+                        </Label>
+                        <ListView fx:id="personListView" layoutX="35.0" layoutY="86.0" prefHeight="390.0" prefWidth="290.0" />
+                        <Button fx:id="getlocationsbttn" layoutX="134.0" layoutY="499.0" mnemonicParsing="false" onAction="#openLocations" text="Get locations" />
+                    </children>
+                </AnchorPane>
+                <AnchorPane fx:id="dataPane" minHeight="0.0" minWidth="0.0" prefHeight="225.0" prefWidth="1161.0" />
+            </items>
+        </SplitPane>
+    </children>
+</AnchorPane>

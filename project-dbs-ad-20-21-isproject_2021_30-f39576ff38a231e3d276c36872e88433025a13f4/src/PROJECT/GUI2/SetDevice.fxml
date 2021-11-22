@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="882.0" prefWidth="1537.0" style="-fx-background-color: #9fd1d1;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="PROJECT.GUI2.SetDeviceController">
+    <children>
+        <Button fx:id="setDevicebttn" layoutX="310.0" layoutY="136.0" mnemonicParsing="false" onAction="#setDevice" onContextMenuRequested="#testMethode" text="Apply Changes" />
+        <Label layoutX="188.0" layoutY="28.0" prefHeight="30.0" prefWidth="119.0" text="OLD DEVICE">
+            <font>
+                <Font name="System Bold" size="20.0" />
+            </font></Label>
+        <Label layoutX="47.0" layoutY="80.0" text="Device Number" />
+        <TextField fx:id="txtOldDeviceNumber" layoutX="147.0" layoutY="76.0" prefHeight="25.0" prefWidth="200.0" />
+        <TextField fx:id="txtNewDeviceNumber" layoutX="428.0" layoutY="75.0" prefHeight="27.0" prefWidth="200.0" />
+        <Label layoutX="358.0" layoutY="80.0" prefHeight="18.0" prefWidth="76.0" text="changes to">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font></Label>
+        <Label layoutX="468.0" layoutY="28.0" text="NEW DEVICE">
+            <font>
+                <Font name="System Bold" size="20.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>

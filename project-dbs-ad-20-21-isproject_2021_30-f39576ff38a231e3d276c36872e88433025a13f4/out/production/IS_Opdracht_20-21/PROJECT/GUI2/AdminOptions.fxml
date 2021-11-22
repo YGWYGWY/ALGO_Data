@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="957.0" prefWidth="2032.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="PROJECT.GUI2.AdminOptionsController">
+<SplitPane dividerPositions="0.2729064039408867" prefHeight="957.0" prefWidth="2032.0">
+    <items>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="763.0" prefWidth="603.0" style="-fx-background-color: #f5b8b9;">
+            <children>
+                <Button fx:id="averageCO2Bttn" layoutX="188.0" layoutY="96.0" mnemonicParsing="false" onAction="#getAverageCO2Bttn" prefHeight="32.0" prefWidth="136.0" text="Average CO2" />
+                <Button fx:id="addPersonbttn" layoutX="32.0" layoutY="56.0" mnemonicParsing="false" onAction="#addPerson" prefHeight="32.0" prefWidth="106.0" text="Add Person" />
+                <Button fx:id="deletePersonbttn" layoutX="32.0" layoutY="133.0" mnemonicParsing="false" onAction="#deletePerson" prefHeight="32.0" prefWidth="106.0" text="Delete Person" />
+                <Button fx:id="setPersonbttn" layoutX="32.0" layoutY="96.0" mnemonicParsing="false" onAction="#setPerson" prefHeight="32.0" prefWidth="106.0" text="Set Person" />
+                <Button fx:id="addLocationbttn" layoutX="32.0" layoutY="197.0" mnemonicParsing="false" onAction="#addLocation" prefHeight="32.0" prefWidth="106.0" text="Add Location" />
+                <Button fx:id="deleteLocationbttn" layoutX="32.0" layoutY="272.0" mnemonicParsing="false" onAction="#deleteLocation" prefHeight="32.0" prefWidth="106.0" text="Delete Location" />
+                <Button fx:id="setLocationbttn" layoutX="32.0" layoutY="235.0" mnemonicParsing="false" onAction="#setLocation" prefHeight="32.0" prefWidth="106.0" text="Set Location" />
+                <Button fx:id="deleteDevicebttn" layoutX="32.0" layoutY="412.0" mnemonicParsing="false" onAction="#deleteDevice" prefHeight="32.0" prefWidth="106.0" text="Delete Device" />
+                <Button fx:id="addDevicebttn" layoutX="32.0" layoutY="339.0" mnemonicParsing="false" onAction="#addDevice" prefHeight="32.0" prefWidth="106.0" text="Add Device" />
+                <Button fx:id="setDevicebttn" layoutX="32.0" layoutY="375.0" mnemonicParsing="false" onAction="#setDevice" prefHeight="32.0" prefWidth="106.0" text="Set Device" />
+                <Label layoutX="41.0" layoutY="17.0" prefHeight="32.0" prefWidth="88.0" text="ACTIONS" textAlignment="CENTER">
+                    <font>
+                        <Font name="System Bold" size="20.0" />
+                    </font></Label>
+                <Label layoutX="211.0" layoutY="18.0" text="REPORTS">
+                    <font>
+                        <Font name="System Bold" size="20.0" />
+                    </font></Label>
+                <Button fx:id="daybydayBttn" layoutX="188.0" layoutY="56.0" mnemonicParsing="false" onAction="#getDaybyDayOverview" prefHeight="32.0" prefWidth="136.0" text="Day-by-day overview" />
+               <Label layoutX="381.0" layoutY="18.0" text="FORCECAST">
+                  <font>
+                     <Font name="System Bold" size="20.0" />
+                  </font>
+               </Label>
+               <Button fx:id="forecastbttn" layoutX="369.0" layoutY="56.0" mnemonicParsing="false" onAction="#getForecast" prefHeight="32.0" prefWidth="136.0" text="Forecast" />
+            </children>
+        </AnchorPane>
+        <AnchorPane fx:id="dataPane" minHeight="0.0" minWidth="0.0" prefHeight="763.0" prefWidth="384.0" />
+    </items>
+</SplitPane>
+</AnchorPane>

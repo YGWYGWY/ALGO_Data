@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="888.0" prefWidth="1537.0" style="-fx-background-color: #9fd1d1;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="PROJECT.GUI2.AddDeviceController">
+    <children>
+        <Label layoutX="35.0" layoutY="58.0" prefHeight="17.0" prefWidth="92.0" text="Street Name" />
+        <TextField fx:id="txtStreetName" layoutX="181.0" layoutY="54.0" prefHeight="27.0" prefWidth="200.0" />
+        <TextField fx:id="txtStreetNumber" layoutX="181.0" layoutY="95.0" prefHeight="27.0" prefWidth="200.0" />
+        <Label layoutX="35.0" layoutY="99.0" text="Street Number" />
+        <Button fx:id="addDevicebttn" layoutX="188.0" layoutY="359.0" mnemonicParsing="false" onAction="#addDevice" onContextMenuRequested="#testMethode" text="Add Device" />
+        <TextField fx:id="txtLocationID" layoutX="181.0" layoutY="135.0" prefHeight="27.0" prefWidth="200.0" />
+        <Label layoutX="35.0" layoutY="142.0" prefHeight="18.0" prefWidth="65.0" text="LocationID" />
+        <Label layoutX="35.0" layoutY="182.0" text="Device Number" />
+        <TextField fx:id="txtDeviceNumber" layoutX="181.0" layoutY="178.0" prefHeight="26.0" prefWidth="200.0" />
+        <Label layoutX="167.0" layoutY="14.0" prefHeight="30.0" prefWidth="261.0" text="NEW DEVICE (at a location)">
+            <font>
+                <Font name="System Bold" size="20.0" />
+            </font></Label>
+        <CheckBox fx:id="averageBox" layoutX="181.0" layoutY="222.0" mnemonicParsing="false" text="Average" />
+        <CheckBox fx:id="maximumBox" layoutX="260.0" layoutY="222.0" mnemonicParsing="false" text="Maximum" />
+        <CheckBox fx:id="minimumBox" layoutX="340.0" layoutY="222.0" mnemonicParsing="false" text="Minimum" />
+        <Label layoutX="35.0" layoutY="222.0" text="Functionalities" />
+      <CheckBox fx:id="PMBox" layoutX="290.0" layoutY="260.0" mnemonicParsing="false" text="PM2.5, PM5 &amp; PM10" />
+      <CheckBox fx:id="N2Box" layoutX="240.0" layoutY="260.0" mnemonicParsing="false" text="N2" />
+      <CheckBox fx:id="CO2Box" layoutX="181.0" layoutY="260.0" mnemonicParsing="false" text="C02" />
+      <Label layoutX="35.0" layoutY="260.0" text="Measurements" />
+      <Label layoutX="36.0" layoutY="295.0" text="Measurement ID" />
+      <TextField fx:id="txtmeasurementID" layoutX="181.0" layoutY="290.0" prefHeight="26.0" prefWidth="200.0" />
+    </children>
+</AnchorPane>

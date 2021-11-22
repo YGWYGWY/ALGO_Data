@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="824.0" prefWidth="1497.0" style="-fx-background-color: #9fd1d1;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="PROJECT.GUI2.DeleteLocationPersonsController">
+   <children>
+      <Label layoutX="35.0" layoutY="58.0" prefHeight="17.0" prefWidth="92.0" text="First Name" />
+      <TextField fx:id="txtFirstName" layoutX="181.0" layoutY="54.0" prefHeight="27.0" prefWidth="200.0" />
+      <TextField fx:id="txtLastName" layoutX="181.0" layoutY="95.0" prefHeight="27.0" prefWidth="200.0" />
+      <Label layoutX="35.0" layoutY="99.0" text="Last Name" />
+      <Button fx:id="nextBttn" layoutX="181.0" layoutY="187.0" mnemonicParsing="false" onAction="#showLocations" text="Next" />
+      <Label layoutX="35.0" layoutY="138.0" text="Phone Number" />
+      <TextField fx:id="txtPhoneNumber" layoutX="181.0" layoutY="138.0" prefHeight="26.0" prefWidth="200.0" />
+      <Label layoutX="186.0" layoutY="14.0" prefHeight="30.0" prefWidth="190.0" text="FIRST GIVE PERSON">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font></Label>
+      <AnchorPane fx:id="dataPane" layoutX="32.0" layoutY="246.0" prefHeight="249.0" prefWidth="796.0" />
+   </children>
+</AnchorPane>

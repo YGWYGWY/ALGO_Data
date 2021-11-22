@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="906.0" prefWidth="1537.0" style="-fx-background-color: #9fd1d1;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="PROJECT.GUI2.DeletePersonController">
+   <children>
+      <Label layoutX="36.0" layoutY="58.0" prefHeight="17.0" prefWidth="92.0" text="First Name" />
+      <TextField fx:id="txtFirstName" layoutX="181.0" layoutY="54.0" prefHeight="27.0" prefWidth="200.0" />
+      <TextField fx:id="txtLastName" layoutX="181.0" layoutY="95.0" prefHeight="27.0" prefWidth="200.0" />
+      <Label layoutX="35.0" layoutY="99.0" text="Last Name" />
+      <Button fx:id="deletePersonbttn" layoutX="181.0" layoutY="248.0" mnemonicParsing="false" onMouseClicked="#deletePerson" text="Delete" />
+      <TextField fx:id="txtEmail" layoutX="181.0" layoutY="135.0" prefHeight="27.0" prefWidth="200.0" />
+      <Label layoutX="35.0" layoutY="142.0" prefHeight="18.0" prefWidth="65.0" text="E-mail" />
+      <Label layoutX="35.0" layoutY="182.0" text="Phone Number" />
+      <TextField fx:id="txtPhoneNumber" layoutX="181.0" layoutY="178.0" prefHeight="26.0" prefWidth="200.0" />
+      <Label layoutX="201.0" layoutY="14.0" prefHeight="30.0" prefWidth="161.0" text="DELETE PERSON">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font></Label>
+   </children>
+</AnchorPane>

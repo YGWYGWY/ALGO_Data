@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="436.0" prefWidth="550.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="PROJECT.GUI2.EnterMeasurement">
+   <children>
+      <Label layoutX="93.0" layoutY="75.0" text="Enter Measurement">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="41.0" layoutY="124.0" text="Date" />
+      <Label layoutX="41.0" layoutY="164.0" text="CO2" />
+      <Label layoutX="46.0" layoutY="202.0" text="N2" />
+      <Label layoutX="43.0" layoutY="234.0" text="PM 2.5" />
+      <Label layoutX="40.0" layoutY="271.0" text="PM 5" />
+      <Label layoutX="45.0" layoutY="308.0" text="PM 10" />
+      <TextField fx:id="txtCO2" layoutX="106.0" layoutY="159.0" prefHeight="26.0" prefWidth="42.0" />
+      <TextField fx:id="txtPM25" layoutX="106.0" layoutY="229.0" prefHeight="26.0" prefWidth="42.0" />
+      <TextField fx:id="txtPM5" layoutX="106.0" layoutY="266.0" prefHeight="26.0" prefWidth="42.0" />
+      <TextField fx:id="txtPM10" layoutX="106.0" layoutY="303.0" prefHeight="26.0" prefWidth="42.0" />
+      <Label layoutX="148.0" layoutY="172.0" text="ppm" />
+      <Label layoutX="148.0" layoutY="210.0" text="ppm" />
+      <Label layoutX="148.0" layoutY="242.0" text="ppm" />
+      <Label layoutX="148.0" layoutY="279.0" text="ppm" />
+      <Label layoutX="148.0" layoutY="316.0" text="ppm" />
+      <Button fx:id="enterbttn" layoutX="152.0" layoutY="358.0" mnemonicParsing="false" onAction="#enterMeasurement" text="Enter" />
+      <TextField fx:id="txtDate" layoutX="93.0" layoutY="119.0" prefHeight="26.0" prefWidth="104.0" />
+      <Label layoutX="202.0" layoutY="123.0" prefHeight="18.0" prefWidth="104.0" text="(dd/mm/yyyy)" />
+      <AnchorPane fx:id="dataPane" layoutX="316.0" layoutY="100.0" prefHeight="200.0" prefWidth="200.0" />
+      <TextField fx:id="txtN2" layoutX="106.0" layoutY="195.0" prefHeight="26.0" prefWidth="42.0" />
+   </children>
+</AnchorPane>

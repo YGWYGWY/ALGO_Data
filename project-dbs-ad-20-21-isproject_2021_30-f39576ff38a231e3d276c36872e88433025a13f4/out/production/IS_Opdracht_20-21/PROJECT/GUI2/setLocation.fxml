@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="760.0" prefWidth="1071.0" style="-fx-background-color: #9fd1d1;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="PROJECT.GUI2.SetLocationController">
+   <Label layoutX="170.0" layoutY="14.0" prefHeight="30.0" prefWidth="151.0" text="OLD LOCATION">
+      <font>
+         <Font name="System Bold" size="20.0" />
+      </font></Label>
+   <Button fx:id="setlocationbttn" layoutX="314.0" layoutY="348.0" mnemonicParsing="false" onAction="#setLocation" text="Change Location" />
+   <Label layoutX="0.0" layoutY="58.0" text="Street name" />
+   <Label layoutX="0.0" layoutY="98.0" text="Street number" />
+   <Label layoutX="0.0" layoutY="138.0" text="City" />
+   <Label layoutX="0.0" layoutY="178.0" text="Zip code" />
+   <Label layoutX="0.0" layoutY="219.0" text="Location type" />
+   <Label layoutX="0.0" layoutY="259.0" text="Room number" />
+   <Label layoutX="0.0" layoutY="298.0" text="Location ID" />
+   <TextField fx:id="txtOldStreetName" layoutX="145.0" layoutY="53.0" prefHeight="27.0" prefWidth="200.0" />
+   <TextField fx:id="txtOldStreetNumber" layoutX="145.0" layoutY="93.0" prefHeight="27.0" prefWidth="200.0" />
+   <TextField fx:id="txtOldCity" layoutX="145.0" layoutY="133.0" prefHeight="27.0" prefWidth="200.0" />
+   <TextField fx:id="txtOldZip" layoutX="145.0" layoutY="173.0" prefHeight="27.0" prefWidth="200.0" />
+   <TextField fx:id="txtOldType" layoutX="145.0" layoutY="214.0" prefHeight="27.0" prefWidth="200.0" />
+   <TextField fx:id="txtOldRoomNumber" layoutX="145.0" layoutY="254.0" prefHeight="27.0" prefWidth="200.0" />
+   <TextField fx:id="txtOldLocationID" layoutX="145.0" layoutY="293.0" prefHeight="27.0" prefWidth="200.0" />
+   <TextField fx:id="txtNewZip" layoutX="445.0" layoutY="174.0" prefHeight="25.0" prefWidth="200.0" />
+   <TextField fx:id="txtNewType" layoutX="445.0" layoutY="214.0" prefHeight="25.0" prefWidth="200.0" />
+   <TextField fx:id="txtNewRoomNumber" layoutX="445.0" layoutY="254.0" prefHeight="25.0" prefWidth="200.0" />
+   <TextField fx:id="txtNewCity" layoutX="445.0" layoutY="134.0" prefHeight="25.0" prefWidth="200.0" />
+   <TextField fx:id="txtNewStreetNumber" layoutX="445.0" layoutY="94.0" prefHeight="25.0" prefWidth="200.0" />
+   <TextField fx:id="txtNewStreetName" layoutX="445.0" layoutY="54.0" prefHeight="25.0" prefWidth="200.0" />
+   <TextField fx:id="txtNewLocationID" layoutX="445.0" layoutY="293.0" prefHeight="25.0" prefWidth="200.0" />
+   <Label layoutX="360.0" layoutY="258.0" text="changes to" />
+   <Label layoutX="360.0" layoutY="58.0" text="changes to" />
+   <Label layoutX="360.0" layoutY="98.0" text="changes to" />
+   <Label layoutX="360.0" layoutY="138.0" text="changes to" />
+   <Label layoutX="360.0" layoutY="178.0" text="changes to" />
+   <Label layoutX="360.0" layoutY="296.0" text="changes to" />
+   <Label layoutX="360.0" layoutY="219.0" text="changes to" />
+   <Label layoutX="468.0" layoutY="14.0" text="NEW LOCATION">
+      <font>
+         <Font name="System Bold" size="20.0" />
+      </font>
+   </Label>
+</AnchorPane>
